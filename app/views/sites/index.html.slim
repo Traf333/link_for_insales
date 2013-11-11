@@ -1,0 +1,24 @@
+h1 Listing sites
+
+table
+  tr
+    th Name
+    th Url
+    th Description
+    th Колличество ссылок
+    th
+    th
+
+  - @sites.each do |site|
+    tr
+      td = site.name
+      td = site.url
+      td = site.description
+      td = link_to "(#{site.links.size}) шт.", site_path(site)
+      td = link_to 'Show', site
+      td = link_to 'Edit', edit_site_path(site)
+      td = link_to 'Destroy', site, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Site', new_site_path

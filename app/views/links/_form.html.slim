@@ -1,0 +1,30 @@
+= form_for @link do |f|
+  - if @link.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@link.errors.count, "error")} prohibited this link from being saved:"
+      ul
+        - @link.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :phrase
+    = f.text_field :phrase
+  .field
+    = f.label :page_url
+    = f.text_field :page_url
+  .field
+    = f.label :image_url
+    = f.text_field :image_url
+  .field
+    = f.label :category
+    = f.text_field :category
+  .field
+    = f.label :product_url
+    = f.text_field :product_url
+  .field
+    = f.label :description
+    = f.text_area :description
+  /.field
+  /  = f.label :site
+  /  = f.text_field :site
+  .actions = f.submit 'Save', class: 'button rounded'

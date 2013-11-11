@@ -1,0 +1,27 @@
+p#notice = notice
+
+p
+  strong Phrase:
+  = @link.phrase
+p
+  strong Page url:
+  = @link.page_url
+p
+  strong Image url:
+  = @link.image_url
+p
+  strong Category:
+  = @link.category
+p
+  strong Product url:
+  = @link.product_url
+p
+  strong Description:
+  = @link.description
+p
+  strong Site:
+  = @link.site
+
+= link_to 'Edit', edit_link_path(@link)
+'|
+= link_to 'Back', links_path

@@ -1,0 +1,49 @@
+p#notice = notice
+h1= @site.name
+= link_to 'Edit', edit_site_path(@site)
+'|
+= link_to 'Back', sites_path
+p
+  strong Url:
+  = @site.url
+p
+  strong Description:
+  = @site.description
+
+
+
+
+h2 Импорт линков
+= form_tag import_site_path(@site), multipart: true do
+  = file_field_tag :file
+  = submit_tag "Import"
+table
+  tr
+    th Phrase
+    th Page url
+    th Image url
+    th Category
+    th Product urls
+    /th Description
+    th
+    th
+    th
+
+  - @links.each do |link|
+    tr
+      td = link.phrase
+      td = link.page_url
+      td
+       = image_tag link.image_url
+      td = link.category
+      td
+        - link.products.each do |product|
+          p= product.url
+      /td = link.description
+      td = link_to 'Show', link
+      td = link_to 'Edit', edit_link_path(link)
+      td = link_to 'Destroy', link, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Link', new_link_path
