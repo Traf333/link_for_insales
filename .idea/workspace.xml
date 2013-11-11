@@ -100,6 +100,7 @@
     <file path="/sites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384184239261" ignored="false" />
     <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384183452319" ignored="false" />
     <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384187305461" ignored="false" />
+    <file path="/database.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188190831" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,19 +149,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="176" selection-end="176" vertical-scroll-proportion="0.20979021">
+            <state line="8" column="5" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="499" selection-end="515" vertical-scroll-proportion="0.0">
+            <state line="21" column="2" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5506993">
               <folding />
             </state>
           </provider>
@@ -235,8 +236,8 @@
         <option value="$PROJECT_DIR$/app/views/sites/index.html.slim" />
         <option value="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -768,16 +769,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="499" selection-end="515" vertical-scroll-proportion="0.0">
+        <state line="8" column="5" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="176" selection-end="176" vertical-scroll-proportion="0.20979021">
+        <state line="21" column="2" selection-start="499" selection-end="499" vertical-scroll-proportion="0.5506993">
           <folding />
         </state>
       </provider>
