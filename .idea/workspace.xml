@@ -4,7 +4,7 @@
     <list default="true" id="ccf0b872-d754-4dff-9a1c-2bf431c24982" name="Default" comment="" />
     <ignored path="link_for_insales.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384187133366" ignored="false" />
+    <file path="/Gemfile" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188082782" ignored="false" />
     <file path="/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384181520840" ignored="false" />
     <file path="/site.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383826055637" ignored="false" />
     <file path="/link.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384183515184" ignored="false" />
@@ -151,7 +151,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.5769231">
+            <state line="8" column="5" selection-start="176" selection-end="176" vertical-scroll-proportion="0.20979021">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="19" selection-start="499" selection-end="515" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/serializers/link_serializer.rb" />
         <option value="$PROJECT_DIR$/app/serializers/product_serializer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -227,6 +235,7 @@
         <option value="$PROJECT_DIR$/app/views/sites/index.html.slim" />
         <option value="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
@@ -750,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="508" selection-end="515" vertical-scroll-proportion="0.5506993">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="42" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
@@ -766,9 +768,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="499" selection-end="515" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.5769231">
+        <state line="8" column="5" selection-start="176" selection-end="176" vertical-scroll-proportion="0.20979021">
           <folding />
         </state>
       </provider>
