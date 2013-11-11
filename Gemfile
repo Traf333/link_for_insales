@@ -24,6 +24,9 @@ gem 'jquery-rails'
 gem 'slim-rails'
 gem 'roo'
 gem 'active_model_serializers'
+group :production do
+  gem 'pg'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
