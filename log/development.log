@@ -14988,3 +14988,292 @@ ActionController::RoutingError (No route matches [GET] "/sites/1/links.json"):
 
 
   Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-11 23:44:46 +0700
+Connecting to database specified by database.yml
+Processing by SitesController#index as HTML
+  [1m[36mSite Load (0.1ms)[0m  [1mSELECT "sites".* FROM "sites" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 2[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 3
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 4[0m
+  Rendered sites/index.html.slim within layouts/application (81.6ms)
+Compiled links.js  (852ms)  (pid 10642)
+Compiled application.js  (4ms)  (pid 10642)
+Completed 200 OK in 1083ms (Views: 1072.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /application.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /links.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /vendor/custom.modernizr.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /sites.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation_and_overrides.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.alerts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.clearing.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.cookie.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.forms.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.joyride.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.magellan.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.orbit.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.reveal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.tooltips.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.section.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.topbar.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.interchange.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.placeholder.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/foundation.abide.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /foundation/index.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /links.js - 200 OK (1ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /sites.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:48 +0700
+Served asset /application.js - 304 Not Modified (46ms)
+
+
+Started GET "/sites/1" for 127.0.0.1 at 2013-11-11 23:44:53 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSite Load (0.3ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 1 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.3ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 698[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 699
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 700[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 701
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 702[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 703
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 704[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 705
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 706[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 707
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 708[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 709
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 710[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 711
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 712[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 713
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 714[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 715
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 716[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 717
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 718[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 719
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 720[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 721
+  Rendered sites/show.html.slim within layouts/application (44.2ms)
+Completed 200 OK in 96ms (Views: 54.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation_and_overrides.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /links.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /sites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /vendor/custom.modernizr.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.alerts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.clearing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.joyride.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.magellan.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gg" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /gg - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/gg"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.14) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/igor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/igor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/igor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.orbit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.tooltips.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.topbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.reveal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.interchange.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.section.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.placeholder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/foundation.abide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /foundation/index.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /sites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-11 23:44:54 +0700
+Served asset /application.js - 304 Not Modified (2ms)
