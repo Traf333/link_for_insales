@@ -26,6 +26,7 @@ gem 'roo'
 gem 'active_model_serializers'
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 # To use ActiveModel has_secure_password
