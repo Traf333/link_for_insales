@@ -12,7 +12,7 @@
     <file path="/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384005345343" ignored="false" />
     <file path="/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383826768310" ignored="false" />
     <file path="/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383826796034" ignored="false" />
-    <file path="/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384233868379" ignored="false" />
+    <file path="/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384237837721" ignored="false" />
     <file path="/application.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383829193163" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/root/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383901202637" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/plants/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
@@ -132,19 +132,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.slim" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.slim" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="0.54744524">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="link_from_alex.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="link_from_alex.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="33" selection-start="311" selection-end="311" vertical-scroll-proportion="0.18783543">
+            <state line="7" column="33" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,15 +165,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="-10.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sites_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,12 +226,12 @@
         <option value="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/routing/mapper.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/sites/show.html.slim" />
         <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/public/link_from_alex.js" />
+        <option value="$PROJECT_DIR$/app/views/sites/show.html.slim" />
       </list>
     </option>
   </component>
@@ -897,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="5" selection-start="164" selection-end="164" vertical-scroll-proportion="0.47202796">
@@ -936,7 +920,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="311" selection-end="311" vertical-scroll-proportion="0.18783543">
+        <state line="7" column="33" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="0.54744524">
           <folding />
         </state>
       </provider>

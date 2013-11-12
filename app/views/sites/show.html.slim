@@ -14,6 +14,16 @@ p
 
 
 h2 Импорт линков
+strong ВНИМАНИЕ!!!
+p При импорте excel файла названия заголовков у колонок должны быть такие
+ul
+  li Фраза - phrase
+  li Урл ссылки (куда пойдем если кликнем) - page_url
+  li Урл картинки - image_url
+  li Урл категории - category
+
+
+
 = form_tag import_site_path(@site), multipart: true do
   = file_field_tag :file
   = submit_tag "Import"
