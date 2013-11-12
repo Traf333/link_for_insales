@@ -103,6 +103,7 @@
     <file path="/database.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188190831" ignored="false" />
     <file path="/link_from_alex.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384231517813" ignored="false" />
     <file path="/.gitignore" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384235188749" ignored="false" />
+    <file path="/application.html.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384236107802" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +150,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.js.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="links.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13416816">
+            <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1384235641245" expanded="true" signature="749:762" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.4379562">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/links/_form.html.slim" />
         <option value="$PROJECT_DIR$/app/views/links/index.html.slim" />
         <option value="$PROJECT_DIR$/app/views/sites/index.html.slim" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -231,6 +240,7 @@
         <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -363,6 +373,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="link_for_insales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="link_for_insales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -793,13 +825,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/links/_form.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="52" selection-start="744" selection-end="744" vertical-scroll-proportion="-18.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="-1.25">
@@ -902,10 +927,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13416816">
+        <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1384235641245" expanded="true" signature="749:762" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.4379562">
+          <folding />
         </state>
       </provider>
     </entry>
