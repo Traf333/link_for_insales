@@ -6,10 +6,11 @@
 $ ->
   block = $('#links_from_alex')
   if block.length
-    url = 'http://0.0.0.0:3001/sites/1/links.json'
+    url = 'http://fathomless-mesa-6782.herokuapp.com/links.json'   # наш сайт откуда берутся данные
+    category = location.href.split('/product')[0]
     $.ajax
       url: url
-      data: {product_url: location.href}
+      data: {product_url: location.href, url: location.origin, category: category}
       dataType: 'jsonp'
       success: (result) ->
         form = $('<form accept-charset="UTF-8" action="http://0.0.0.0:3001/sites/1/links/build_product_url" method="post" style="display:none;"></form>')
@@ -33,7 +34,6 @@ $ ->
         else
           form.submit()
 
-        $('#plant').prepend(block)
 
 
 

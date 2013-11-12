@@ -3,11 +3,16 @@ class LinksController < ApplicationController
   # GET /links
   # GET /links.json
   def index
-    @links = Link.all
+    @site = Site.find_by_url(params[:url])
+    @links =  if params[:product_url].present? && Link.joins(:products).where(category: params[:category], site_id: @site.id, products: {url: params[:product_url]}).present?
+                Link.joins(:products).where(category: params[:category], site_id: @site.id, products: {url: params[:product_url]})
+              else
+                Link.all
+              end
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @links }
+      format.json { render json: @links.shuffle.first(3), callback: params[:callback] }
     end
   end
 

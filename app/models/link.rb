@@ -4,6 +4,14 @@ class Link < ActiveRecord::Base
   attr_accessible :category, :description, :image_url, :page_url, :phrase, :product_url, :site_id
 
 
+  def site_url
+    site.try(:url)
+  end
+
+  def site_url=(url)
+    self.site = Site.find_by_url(url)
+  end
+
   def self.import(file, site_id)
     spreadsheet = open_spreadsheet(file)
     header = spreadsheet.row(1)
