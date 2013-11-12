@@ -99,7 +99,7 @@
     <file path="/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384055805681" ignored="false" />
     <file path="/sites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384195751925" ignored="false" />
     <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384183452319" ignored="false" />
-    <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384233838320" ignored="false" />
+    <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384235636424" ignored="false" />
     <file path="/database.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188190831" ignored="false" />
     <file path="/link_from_alex.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384231517813" ignored="false" />
     <file path="/.gitignore" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384235188749" ignored="false" />
@@ -149,12 +149,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.js.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="links.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="85" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13416816">
               <folding>
-                <marker date="1384234287505" expanded="true" signature="706:719" placeholder="..." />
+                <marker date="1384235641245" expanded="true" signature="749:762" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -182,15 +182,6 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="44" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="5" selection-start="164" selection-end="164" vertical-scroll-proportion="0.47202796">
               <folding />
             </state>
           </provider>
@@ -237,9 +228,9 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/public/link_from_alex.js" />
         <option value="$PROJECT_DIR$/app/views/sites/show.html.slim" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
       </list>
     </option>
   </component>
@@ -881,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -895,12 +879,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="85" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1384234287505" expanded="true" signature="706:719" placeholder="..." />
-          </folding>
+        <state line="18" column="5" selection-start="164" selection-end="164" vertical-scroll-proportion="0.47202796">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,10 +893,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="164" selection-end="164" vertical-scroll-proportion="0.47202796">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13416816">
+          <folding>
+            <marker date="1384235641245" expanded="true" signature="749:762" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
