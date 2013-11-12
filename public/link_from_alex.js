@@ -5,7 +5,7 @@ $(function() {
     var block, category, url;
     block = $('#links_from_alex');
     if (block.length) {
-    url = 'http://fathomless-mesa-6782.herokuapp.com/links';
+    url = 'http://links-from-alex.herokuapp.com/links';
     category = location.href.split('/product')[0];
     return $.ajax({
     url: url + '.json',
