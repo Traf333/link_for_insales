@@ -5,10 +5,10 @@ $(function() {
     var block, category, url;
     block = $('#links_from_alex');
     if (block.length) {
-    url = 'http://fathomless-mesa-6782.herokuapp.com/links.json';
+    url = 'http://fathomless-mesa-6782.herokuapp.com/links';
     category = location.href.split('/product')[0];
     return $.ajax({
-    url: url,
+    url: url + '.json',
     data: {
     product_url: location.href,
     url: location.origin,
@@ -17,7 +17,7 @@ $(function() {
 dataType: 'jsonp',
 success: function(result) {
     var condition, form, img, input_char, input_page, link, product, submit, tag_a, _i, _j, _len, _len1, _ref, _ref1;
-    form = $('<form accept-charset="UTF-8" action="http://0.0.0.0:3001/sites/1/links/build_product_url" method="post" style="display:none;"></form>');
+    form = $("<form accept-charset='UTF-8' action=" + (url + '/build_product_url') + " method='post' style='display:none;'></form>");
     input_char = $('<input name="utf8" type="hidden" value="✓">');
     input_page = $("<input name='product_url' value=" + location.href + ">");
     submit = $('<input name="commit" type="submit" value="Import">');

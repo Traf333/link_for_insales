@@ -84,14 +84,7 @@ class SitesController < ApplicationController
     redirect_to site_path(@site), notice: "Импортнулось как надо"
   end
 
-  def build_product_url
-    links = Link.where(id: params[:ids])
-    links.each do |link|
-      link.products.build(url: params[:product_url])
-      link.save!
-    end
-    redirect_back
-  end
+
 
   # DELETE /sites/1
   # DELETE /sites/1.json

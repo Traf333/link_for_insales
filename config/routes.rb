@@ -4,9 +4,10 @@ LinkForInsales::Application.routes.draw do
 
   resources :sites do
     member {post :import}
-    member {post :build_product_url}
   end
-  resources :links
+  resources :links do
+    collection {post :build_product_url}
+  end
 
 
   # The priority is based upon order of creation:

@@ -59,6 +59,14 @@ class LinksController < ApplicationController
     end
   end
 
+  def build_product_url
+    links = Link.where(id: params[:ids])
+    links.each do |link|
+      link.products.build(url: params[:product_url])
+      link.save!
+    end
+    redirect_back
+  end
 
 
   # PUT /links/1

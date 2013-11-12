@@ -18143,3 +18143,1373 @@ Processing by LinksController#index as JSON
   [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 752
   [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 769[0m
 Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/sites/3.json" for 127.0.0.1 at 2013-11-12 12:01:37 +0700
+Processing by SitesController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 3 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.4ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 3
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 754[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 749
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 764[0m
+Completed 200 OK in 9ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sites/3" for 127.0.0.1 at 2013-11-12 12:01:41 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 3 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.3ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 3
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 746[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 747
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 748[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 749
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 750[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 751
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 752[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 753
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 754[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 755
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 756[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 757
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 758[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 759
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 760[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 761
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 762[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 763
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 764[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 765
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 766[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 767
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 768[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 769
+  Rendered sites/show.html.slim within layouts/application (38.9ms)
+Compiled links.js  (113ms)  (pid 10766)
+Compiled application.js  (3ms)  (pid 10766)
+Completed 200 OK in 305ms (Views: 299.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:01:41 +0700
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:01:41 +0700
+Served asset /foundation_and_overrides.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /sites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /links.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /vendor/custom.modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.alerts.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.clearing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.joyride.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:42 +0700
+Served asset /foundation/foundation.magellan.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.orbit.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.reveal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.topbar.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.tooltips.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.interchange.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.section.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.placeholder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/foundation.abide.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /foundation/index.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /sites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /links.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:01:43 +0700
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/sites/3" for 127.0.0.1 at 2013-11-12 12:02:02 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mSite Load (0.1ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 3 AND "products"."url" IS NULL
+  [1m[36mLink Load (0.3ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."site_id" = 3[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 746
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 747[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 748
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 749[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 750
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 751[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 752
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 753[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 754
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 755[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 756
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 757[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 758
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 759[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 760
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 761[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 762
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 763[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 764
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 765[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 766
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 767[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 768
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 769[0m
+  Rendered sites/show.html.slim within layouts/application (30.8ms)
+Completed 200 OK in 50ms (Views: 42.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /application.css - 200 OK (36ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation_and_overrides.css - 200 OK (5ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.alerts.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.clearing.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.cookie.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.forms.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.joyride.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.magellan.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.orbit.js - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.topbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.tooltips.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.reveal.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.section.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.interchange.js - 200 OK (3ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.abide.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/foundation.placeholder.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /foundation/index.js - 200 OK (3ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:02:03 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/sites/3" for 127.0.0.1 at 2013-11-12 12:03:47 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mSite Load (0.2ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 3 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.3ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 3
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 746[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 747
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 748[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 749
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 750[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 751
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 752[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 753
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 754[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 755
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 756[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 757
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 758[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 759
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 760[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 761
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 762[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 763
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 764[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 765
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 766[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 767
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 768[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 769
+  Rendered sites/show.html.slim within layouts/application (38.9ms)
+Compiled links.js  (151ms)  (pid 10766)
+Compiled application.js  (7ms)  (pid 10766)
+Completed 200 OK in 273ms (Views: 264.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:03:47 +0700
+Served asset /application.css - 200 OK (14ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:03:47 +0700
+Served asset /foundation_and_overrides.css - 200 OK (33ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:03:47 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:47 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.alerts.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.cookie.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.clearing.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.forms.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.joyride.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:48 +0700
+Served asset /foundation/foundation.magellan.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.orbit.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.section.js - 200 OK (7ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.reveal.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.tooltips.js - 200 OK (1ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.interchange.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.topbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.placeholder.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/foundation.abide.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /foundation/index.js - 200 OK (1ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /links.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /application.js - 200 OK (64ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:03:52 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/sites/3" for 127.0.0.1 at 2013-11-12 12:04:55 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 3 AND "products"."url" IS NULL
+  [1m[36mLink Load (0.3ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."site_id" = 3[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 746
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 747[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 748
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 749[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 750
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 751[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 752
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 753[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 754
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 755[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 756
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 757[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 758
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 759[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 760
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 761[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 762
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 763[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 764
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 765[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 766
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 767[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 768
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 769[0m
+  Rendered sites/show.html.slim within layouts/application (30.7ms)
+Compiled links.js  (171ms)  (pid 10766)
+Compiled application.js  (4ms)  (pid 10766)
+Completed 200 OK in 255ms (Views: 247.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:04:55 +0700
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:04:55 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:55 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:04:55 +0700
+Served asset /foundation_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:04:55 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:55 +0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /foundation/foundation.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /foundation/foundation.clearing.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /foundation/foundation.alerts.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /foundation/foundation.cookie.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /foundation/foundation.dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /foundation/foundation.forms.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-11-12 12:04:56 +0700
+Served asset /foundation/foundation.joyride.js - 200 OK (0ms)
+
+
+Started GET "/sites/3" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 3 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.5ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 3
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 746[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 747
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 748[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 749
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 750[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 751
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 752[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 753
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 754[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 755
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 756[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 757
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 758[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 759
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 760[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 761
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 762[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 763
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 764[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 765
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 766[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 767
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 768[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 769
+  Rendered sites/show.html.slim within layouts/application (43.8ms)
+Completed 200 OK in 62ms (Views: 54.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /application.css - 200 OK (44ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation_and_overrides.css - 200 OK (5ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /sites.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.clearing.js - 200 OK (3ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.alerts.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.dropdown.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.cookie.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.forms.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.joyride.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.magellan.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.orbit.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.reveal.js - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.tooltips.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.section.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.topbar.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.placeholder.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.interchange.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/foundation.abide.js - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /foundation/index.js - 200 OK (3ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /links.js - 200 OK (1ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Served asset /application.js - 200 OK (55ms)
+
+
+Started GET "/links.json?callback=jQuery110205832823198288679_1384232709459&product_url=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F3&url=http%3A%2F%2F0.0.0.0%3A3001&category=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F3&_=1384232709460" for 127.0.0.1 at 2013-11-12 12:05:09 +0700
+Processing by LinksController#index as JSON
+  Parameters: {"callback"=>"jQuery110205832823198288679_1384232709459", "product_url"=>"http://0.0.0.0:3001/sites/3", "url"=>"http://0.0.0.0:3001", "category"=>"http://0.0.0.0:3001/sites/3", "_"=>"1384232709460"}
+  [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."url" = 'http://0.0.0.0:3001' LIMIT 1[0m
+Completed 500 Internal Server Error in 2ms
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/links_controller.rb:7:in `index'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+
+
+Started GET "/sites/3" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 3 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.3ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 3
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 746[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 747
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 748[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 749
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 750[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 751
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 752[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 753
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 754[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 755
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 756[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 757
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 758[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 759
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 760[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 761
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 762[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 763
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 764[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 765
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 766[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 767
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."link_id" = 768[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."link_id" = 769
+  Rendered sites/show.html.slim within layouts/application (31.5ms)
+Compiled application.js  (2ms)  (pid 10766)
+Completed 200 OK in 93ms (Views: 87.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Served asset /foundation_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:40 +0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:41 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:41 +0700
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:05:41 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/links.json?callback=jQuery110202230368610471487_1384232741109&product_url=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F3&url=http%3A%2F%2F0.0.0.0%3A3001&category=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F3&_=1384232741110" for 127.0.0.1 at 2013-11-12 12:05:41 +0700
+Processing by LinksController#index as JSON
+  Parameters: {"callback"=>"jQuery110202230368610471487_1384232741109", "product_url"=>"http://0.0.0.0:3001/sites/3", "url"=>"http://0.0.0.0:3001", "category"=>"http://0.0.0.0:3001/sites/3", "_"=>"1384232741110"}
+  [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."url" = 'http://0.0.0.0:3001' LIMIT 1[0m
+Completed 500 Internal Server Error in 2ms
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/links_controller.rb:7:in `index'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/sites" for 127.0.0.1 at 2013-11-12 12:06:59 +0700
+Processing by SitesController#index as HTML
+  [1m[35mSite Load (0.2ms)[0m  SELECT "sites".* FROM "sites" 
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 2
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 3[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 4
+  Rendered sites/index.html.slim within layouts/application (9.6ms)
+Completed 200 OK in 107ms (Views: 104.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /foundation_and_overrides.css - 200 OK (3ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /links.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:00 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/sites/1/edit" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Processing by SitesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSite Load (0.1ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered sites/_form.html.slim (102.6ms)
+  Rendered sites/edit.html.slim within layouts/application (135.4ms)
+Completed 200 OK in 152ms (Views: 150.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /foundation_and_overrides.css - 200 OK (10ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:24 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started PUT "/sites/1" for 127.0.0.1 at 2013-11-12 12:07:31 +0700
+Processing by SitesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4a3JV0J43XPnqNb4CSQmhaMrTXVbUd8MtCRUbSE5sE8=", "site"=>{"name"=>"Мистер Ким", "url"=>"http://www.mr-kim.ru", "description"=>""}, "commit"=>"Save", "id"=>"1"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  UPDATE "sites" SET "url" = 'http://www.mr-kim.ru', "updated_at" = '2013-11-12 05:07:31.654026' WHERE "sites"."id" = 1
+  [1m[36m (511.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3001/sites/1
+Completed 302 Found in 517ms (ActiveRecord: 511.9ms)
+
+
+Started GET "/sites/1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 1 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.1ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 1
+  Rendered sites/show.html.slim within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /foundation_and_overrides.css - 200 OK (31ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/links.json?callback=jQuery110208549492270685732_1384232852600&product_url=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F1&url=http%3A%2F%2F0.0.0.0%3A3001&category=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F1&_=1384232852601" for 127.0.0.1 at 2013-11-12 12:07:32 +0700
+Processing by LinksController#index as JSON
+  Parameters: {"callback"=>"jQuery110208549492270685732_1384232852600", "product_url"=>"http://0.0.0.0:3001/sites/1", "url"=>"http://0.0.0.0:3001", "category"=>"http://0.0.0.0:3001/sites/1", "_"=>"1384232852601"}
+  [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."url" = 'http://0.0.0.0:3001' LIMIT 1[0m
+Completed 500 Internal Server Error in 2ms
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/links_controller.rb:7:in `index'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/sites/1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSite Load (0.2ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 1 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.1ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 1
+  Rendered sites/show.html.slim within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 9.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /application.css - 200 OK (14ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /foundation_and_overrides.css - 200 OK (31ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /sites.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/links.json?callback=jQuery11020564466479467228_1384232860367&product_url=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F1&url=http%3A%2F%2F0.0.0.0%3A3001&category=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F1&_=1384232860368" for 127.0.0.1 at 2013-11-12 12:07:40 +0700
+Processing by LinksController#index as JSON
+  Parameters: {"callback"=>"jQuery11020564466479467228_1384232860367", "product_url"=>"http://0.0.0.0:3001/sites/1", "url"=>"http://0.0.0.0:3001", "category"=>"http://0.0.0.0:3001/sites/1", "_"=>"1384232860368"}
+  [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."url" = 'http://0.0.0.0:3001' LIMIT 1[0m
+Completed 500 Internal Server Error in 2ms
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/links_controller.rb:7:in `index'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/sites/1" for 127.0.0.1 at 2013-11-12 12:14:20 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 1 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.1ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 1
+  Rendered sites/show.html.slim within layouts/application (2.8ms)
+Completed 200 OK in 15ms (Views: 10.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /foundation_and_overrides.css - 200 OK (30ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/links.json?callback=jQuery110209159299491439015_1384233261298&product_url=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F1&url=http%3A%2F%2F0.0.0.0%3A3001&category=http%3A%2F%2F0.0.0.0%3A3001%2Fsites%2F1&_=1384233261299" for 127.0.0.1 at 2013-11-12 12:14:21 +0700
+Processing by LinksController#index as JSON
+  Parameters: {"callback"=>"jQuery110209159299491439015_1384233261298", "product_url"=>"http://0.0.0.0:3001/sites/1", "url"=>"http://0.0.0.0:3001", "category"=>"http://0.0.0.0:3001/sites/1", "_"=>"1384233261299"}
+  [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."url" = 'http://0.0.0.0:3001' LIMIT 1[0m
+Completed 500 Internal Server Error in 2ms
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/links_controller.rb:7:in `index'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.7ms)
+
+
+Started GET "/sites/1" for 127.0.0.1 at 2013-11-12 12:16:13 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 1 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 1
+  Rendered sites/show.html.slim within layouts/application (2.8ms)
+Compiled links.js  (143ms)  (pid 10766)
+Compiled application.js  (36ms)  (pid 10766)
+Completed 200 OK in 209ms (Views: 205.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /foundation_and_overrides.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /links.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /application.js - 200 OK (36ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:16:14 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started POST "/sites/1/links/build_product_url" for 127.0.0.1 at 2013-11-12 12:16:16 +0700
+
+ActionController::RoutingError (No route matches [POST] "/sites/1/links/build_product_url"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.14) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/igor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/igor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/igor/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/sites/1/edit" for 127.0.0.1 at 2013-11-12 12:22:27 +0700
+Processing by SitesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSite Load (0.1ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered sites/_form.html.slim (2.4ms)
+  Rendered sites/edit.html.slim within layouts/application (3.2ms)
+Compiled links.js  (170ms)  (pid 10766)
+Compiled application.js  (5ms)  (pid 10766)
+Completed 200 OK in 214ms (Views: 206.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /foundation_and_overrides.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (1ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /links.js - 200 OK (1ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:28 +0700
+Served asset /application.js - 200 OK (44ms)
+
+
+Started GET "/sites/1" for 127.0.0.1 at 2013-11-12 12:22:33 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSite Load (0.2ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 1 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.1ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 1
+  Rendered sites/show.html.slim within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 10.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /foundation_and_overrides.css - 200 OK (8ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /sites.css - 200 OK (3ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:22:34 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/sites/1/edit" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Processing by SitesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSite Load (0.1ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered sites/_form.html.slim (2.7ms)
+  Rendered sites/edit.html.slim within layouts/application (3.8ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /foundation_and_overrides.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /links.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:23:00 +0700
+Served asset /application.js - 200 OK (33ms)
+
+
+Started GET "/sites/1" for 127.0.0.1 at 2013-11-12 12:24:36 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" INNER JOIN "products" ON "products"."link_id" = "links"."id" WHERE "links"."site_id" = 1 AND "products"."url" IS NULL[0m
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links" WHERE "links"."site_id" = 1
+  Rendered sites/show.html.slim within layouts/application (155.6ms)
+Compiled links.js  (152ms)  (pid 10766)
+Compiled application.js  (2ms)  (pid 10766)
+Completed 200 OK in 362ms (Views: 357.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /foundation_and_overrides.css - 200 OK (4ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /links.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-11-12 12:24:37 +0700
+Served asset /links.js - 200 OK (1ms)
