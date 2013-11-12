@@ -4,8 +4,10 @@ class LinksController < ApplicationController
   # GET /links.json
   def index
     @site = Site.find_by_url(params[:url])
-    @links =  if params[:product_url].present? && Link.joins(:products).where(category: params[:category], site_id: @site.id, products: {url: params[:product_url]}).present?
-                Link.joins(:products).where(category: params[:category], site_id: @site.id, products: {url: params[:product_url]})
+    @links =  if params[:product_url].present? && Link.joins(:products).where(site_id: @site.id, products: {url: params[:product_url]}).present?
+                Link.joins(:products).where(site_id: @site.id, products: {url: params[:product_url]})
+              elsif Link.where(category: params[:category], site_id: @site.id).present?
+                Link.where(category: params[:category], site_id: @site.id)
               else
                 Link.all
               end
