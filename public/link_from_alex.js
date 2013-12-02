@@ -17,6 +17,7 @@ $(function() {
 dataType: 'jsonp',
 success: function(result) {
     var block_link, condition, form, img, input_char, input_page, link, p, submit, tag_a, _i, _len, _ref;
+    if (result.links.length) {
     form = $("<form accept-charset='UTF-8' action=" + (url + '/build_product_url') + " method='post' style='display:none;'></form>");
     input_char = $('<input name="utf8" type="hidden" value="✓">');
     input_page = $("<input name='product_url' value=" + location.href + ">");
@@ -45,6 +46,7 @@ if (__indexOf.call(condition, true) >= 0) {
     } else {
     return form.submit();
     }
+}
 }
 });
 }
