@@ -4,6 +4,7 @@
 $(function() {
     var block, category, url;
     block = $('#links_from_alex');
+    block.append("<h3>Смотрите также:</h3>");
     if (block.length) {
     url = 'http://links-from-alex.herokuapp.com/links';
     category = location.href.split('/product')[0];
@@ -29,6 +30,7 @@ success: function(result) {
     img = $("<img src=" + link.image_url + ">");
     tag_a = $("<a href=" + link.page_url + "></a>");
     tag_a.append(img);
+    tag_a.append("<p>" + link.phrase + "</p>");
     block.append(tag_a);
     condition = [];
     _ref1 = link.products;

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf0b872-d754-4dff-9a1c-2bf431c24982" name="Default" comment="" />
+    <list default="true" id="ccf0b872-d754-4dff-9a1c-2bf431c24982" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/link_from_alex.js" afterPath="$PROJECT_DIR$/public/link_from_alex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="link_for_insales.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188082782" ignored="false" />
@@ -20,7 +23,7 @@
     <file path="/favorites.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383921459152" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384184991552" ignored="false" />
     <file path="/product.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383907623252" ignored="false" />
-    <file path="/Dummy.txt" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384195892041" ignored="false" />
+    <file path="/Dummy.txt" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385972027440" ignored="false" />
     <file path="/link_serializer.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383913868773" ignored="false" />
     <file path="/product_serializer.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383913883190" ignored="false" />
     <file path="/a.dummy" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384001372753" ignored="false" />
@@ -101,7 +104,7 @@
     <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384183452319" ignored="false" />
     <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384235636424" ignored="false" />
     <file path="/database.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188190831" ignored="false" />
-    <file path="/link_from_alex.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384231517813" ignored="false" />
+    <file path="/link_from_alex.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385980392739" ignored="false" />
     <file path="/.gitignore" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384235188749" ignored="false" />
     <file path="/application.html.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384236107802" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,25 +129,25 @@
       <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/links/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="-1.25">
+            <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.slim" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="0.54744524">
+            <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="link_from_alex.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="link_from_alex.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="33" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="32" column="47" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.8586762">
               <folding />
             </state>
           </provider>
@@ -164,7 +167,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="-10.0">
+            <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,30 +191,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="41" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/routing/mapper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="470" column="12" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -230,8 +223,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/public/link_from_alex.js" />
         <option value="$PROJECT_DIR$/app/views/sites/show.html.slim" />
+        <option value="$PROJECT_DIR$/public/link_from_alex.js" />
       </list>
     </option>
   </component>
@@ -267,6 +260,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -463,8 +458,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -733,14 +726,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1317" height="744" extended-state="0" />
+    <frame x="49" y="24" width="1317" height="744" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2710796" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28053585" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -818,7 +811,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/links/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="-1.25">
+        <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
@@ -832,39 +825,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="2" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="50" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="2" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sites/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="265" selection-end="265" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
+        <state line="16" column="51" selection-start="265" selection-end="265" vertical-scroll-proportion="-10.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/link.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="11" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="20" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
@@ -874,23 +850,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="164" selection-end="164" vertical-scroll-proportion="0.47202796" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/routing/mapper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="470" column="12" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.0">
+        <state line="470" column="12" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.026833631">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="164" selection-end="164" vertical-scroll-proportion="0.47202796">
+        <state line="9" column="41" selection-start="192" selection-end="192" vertical-scroll-proportion="0.026223777">
           <folding />
         </state>
       </provider>
@@ -898,6 +886,13 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="44" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="50" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -911,23 +906,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="0.54744524">
+        <state line="32" column="47" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.8586762">
           <folding />
         </state>
       </provider>
