@@ -1,3 +1,22 @@
 // Place all the styles related to the sites controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#links_from_alex {
+  clear: both;
+
+}
+#links_from_alex a {
+  margin: 5px;
+  padding: 0 15px;
+  text-align: center;
+  height: 175px;
+  border: 1px solid #ccc;
+  display: inline-block;
+
+}
+
+#links_from_alex a img {
+  height: 80%;
+}

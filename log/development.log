@@ -19665,3 +19665,112 @@ Served asset /sites.js - 200 OK (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-12 13:30:41 +0700
 Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-02 18:34:25 +0700
+Connecting to database specified by database.yml
+Processing by SitesController#index as HTML
+  [1m[36mSite Load (0.1ms)[0m  [1mSELECT "sites".* FROM "sites" [0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 2[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 3
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 4[0m
+  Rendered sites/index.html.slim within layouts/application (57.7ms)
+Compiled sites.css  (48ms)  (pid 10558)
+Compiled application.css  (1ms)  (pid 10558)
+Compiled vendor/custom.modernizr.js  (0ms)  (pid 10558)
+Compiled jquery.js  (3ms)  (pid 10558)
+Compiled jquery_ujs.js  (0ms)  (pid 10558)
+Compiled application.js  (36ms)  (pid 10558)
+Completed 200 OK in 349ms (Views: 311.6ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /foundation_and_overrides.css - 200 OK (5ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /links.css - 200 OK (6ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (5ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /links.js - 200 OK (2ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /sites.css - 200 OK (13ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /sites.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /application.css - 200 OK (45ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /application.js - 200 OK (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 18:34:26 +0700
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-02 18:35:34 +0700
+Processing by SitesController#index as HTML
+  [1m[35mSite Load (0.2ms)[0m  SELECT "sites".* FROM "sites" 
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 2
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 3[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 4
+  Rendered sites/index.html.slim within layouts/application (10.3ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /foundation_and_overrides.css - 200 OK (9ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /links.css - 200 OK (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /sites.css - 200 OK (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /vendor/custom.modernizr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /sites.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-12-02 18:35:35 +0700
+Served asset /links.js - 200 OK (0ms)
