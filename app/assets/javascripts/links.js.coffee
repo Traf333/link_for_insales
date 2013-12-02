@@ -7,7 +7,7 @@
 #$ ->
 #  block = $('#links_from_alex')
 #  if block.length
-#    url = 'http://fathomless-mesa-6782.herokuapp.com/links'   # наш сайт откуда берутся данные
+#    url = 'http://links-from-alex.herokuapp.com/links'
 #    category = location.href.split('/product')[0]
 #    $.ajax
 #      url: url + '.json'
@@ -20,23 +20,26 @@
 #        submit = $('<input name="commit" type="submit" value="Import">')
 #        form.append(input_char, [input_page, submit])
 #        block.append(form)
+#        condition = []
+#        block.prepend("<h3>Смотрите также:</h3>")
 #        for link in result.links
+#          block_link = $("<div class='block_link'></div>")
 #          img = $("<img src=#{link.image_url}>")
 #          tag_a = $("<a href=#{link.page_url}></a>")
+#          p = $("<a href=#{link.page_url}><p>#{link.phrase}</p></a>");
 #          tag_a.append(img)
-#          block.append(tag_a)
-#          condition = []
-#          for product in link.products
-#            condition.push(product.url is location.href)
-#          unless true in condition
+#          block_link.append(tag_a, [p])
+#          block.append(block_link)
+#          unless link.product_url is location.href
 #            $("<input name='ids[]' value=#{link.id}>").appendTo(form)
+#          condition.push(link.product_url is location.href)
 #        if true in condition
 #          form.remove()
 #        else
 #          form.submit()
 #
-
-
-
-
-
+#
+#
+#
+#
+#

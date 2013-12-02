@@ -4,13 +4,17 @@ class LinksController < ApplicationController
   # GET /links.json
   def index
     @site = Site.find_by_url(params[:url])
-    @links =  if params[:product_url].present? && Link.joins(:products).where(site_id: @site.id, products: {url: params[:product_url]}).present?
-                Link.joins(:products).where(site_id: @site.id, products: {url: params[:product_url]})
-              elsif Link.where(category: params[:category], site_id: @site.id).present?
-                Link.where(category: params[:category], site_id: @site.id)
-              else
-                Link.all
-              end
+    @links =
+        if params[:product_url].present?
+          if Link.where(site_id: @site.id, product_url: params[:product_url], category: params[:category]).present?
+            Link.where(site_id: @site.id, product_url: params[:product_url], category: params[:category])
+          else
+            Link.where(category: params[:category], site_id: @site.id, product_url: nil)
+          end
+
+        else
+          Link.all
+        end
 
     respond_to do |format|
       format.html # index.html.erb
@@ -64,8 +68,7 @@ class LinksController < ApplicationController
   def build_product_url
     links = Link.where(id: params[:ids])
     links.each do |link|
-      link.products.build(url: params[:product_url])
-      link.save!
+      link.update_attributes(product_url: params[:product_url])
     end
     redirect_back
   end

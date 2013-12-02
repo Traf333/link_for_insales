@@ -1,5 +1,5 @@
 class LinkSerializer < ActiveModel::Serializer
-  attributes :id, :phrase, :image_url, :page_url
+  attributes :id, :phrase, :image_url, :page_url, :product_url
 
-  has_many :products
+  #has_many :products
 end

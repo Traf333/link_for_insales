@@ -1,6 +1,22 @@
+# == Schema Information
+#
+# Table name: links
+#
+#  id          :integer          not null, primary key
+#  phrase      :string(255)
+#  page_url    :string(255)
+#  image_url   :string(255)
+#  category    :string(255)
+#  product_url :string(255)
+#  description :text
+#  site_id     :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
 class Link < ActiveRecord::Base
   belongs_to :site
-  has_many :products, dependent: :destroy
+  #has_many :products, dependent: :destroy
   attr_accessible :category, :description, :image_url, :page_url, :phrase, :product_url, :site_id
 
 

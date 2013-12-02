@@ -3,7 +3,7 @@
     padding-top: 10px;
 
 }
-#links_from_alex a {
+#links_from_alex .block_link {
     margin: 5px;
     padding: 0 15px;
     text-align: center;

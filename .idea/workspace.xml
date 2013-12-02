@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf0b872-d754-4dff-9a1c-2bf431c24982" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/links/index.html.slim" afterPath="$PROJECT_DIR$/app/views/links/index.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sites/index.html.slim" afterPath="$PROJECT_DIR$/app/views/sites/index.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/link.rb" afterPath="$PROJECT_DIR$/app/models/link.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/link_from_alex.css" afterPath="$PROJECT_DIR$/public/link_from_alex.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/link_from_alex.js" afterPath="$PROJECT_DIR$/public/link_from_alex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/serializers/link_serializer.rb" afterPath="$PROJECT_DIR$/app/serializers/link_serializer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/link_test.rb" afterPath="$PROJECT_DIR$/test/unit/link_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/links.yml" afterPath="$PROJECT_DIR$/test/fixtures/links.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/links_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/links_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="$PROJECT_DIR$/app/models/product.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/product_test.rb" afterPath="$PROJECT_DIR$/test/unit/product_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/products.yml" afterPath="$PROJECT_DIR$/test/fixtures/products.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sites/show.html.slim" afterPath="$PROJECT_DIR$/app/views/sites/show.html.slim" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/site.rb" afterPath="$PROJECT_DIR$/app/models/site.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/site_test.rb" afterPath="$PROJECT_DIR$/test/unit/site_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/sites.yml" afterPath="$PROJECT_DIR$/test/fixtures/sites.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="link_for_insales.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,11 +29,11 @@
     <file path="/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384233484434" ignored="false" />
     <file path="/site.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383826055637" ignored="false" />
     <file path="/link.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384196023241" ignored="false" />
-    <file path="/links_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384234848002" ignored="false" />
-    <file path="/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385984131313" ignored="false" />
-    <file path="/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383826768310" ignored="false" />
-    <file path="/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383826796034" ignored="false" />
-    <file path="/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384237837721" ignored="false" />
+    <file path="/links_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386002719364" ignored="false" />
+    <file path="/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386004494532" ignored="false" />
+    <file path="/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993786265" ignored="false" />
+    <file path="/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993799239" ignored="false" />
+    <file path="/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386002768635" ignored="false" />
     <file path="/application.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383829193163" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/root/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383901202637" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/plants/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
@@ -22,8 +41,8 @@
     <file path="/favorites.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383921459152" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384184991552" ignored="false" />
     <file path="/product.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383907623252" ignored="false" />
-    <file path="/Dummy.txt" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385972027440" ignored="false" />
-    <file path="/link_serializer.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383913868773" ignored="false" />
+    <file path="/Dummy.txt" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386001609559" ignored="false" />
+    <file path="/link_serializer.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386004604034" ignored="false" />
     <file path="/product_serializer.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383913883190" ignored="false" />
     <file path="/a.dummy" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384001372753" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/control/plants.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051494948" ignored="false" />
@@ -42,18 +61,18 @@
     <file path="/registrations_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384000745181" ignored="false" />
     <file path="/ability.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384003394132" ignored="false" />
     <file path="$USER_HOME$/plantner/app/models/ability.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/users/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/users/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993720830" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/prettify.css" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384001578744" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/application.css.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/plants/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/plants/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993719578" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/plants/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384002849437" ignored="false" />
+    <file path="/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987038891" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/favorites.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="/favorites.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384003780989" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/shared/filters/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384005385686" ignored="false" />
-    <file path="$USER_HOME$/plantner/config/locales/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384049936035" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/locales/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994794637" ignored="false" />
+    <file path="/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994794637" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/members/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/plant_items.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="/plant_items.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384004850707" ignored="false" />
@@ -62,8 +81,8 @@
     <file path="$USER_HOME$/plantner/app/views/members/index.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="/index.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384005271686" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/members/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/controllers/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384006305959" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986644545" ignored="false" />
+    <file path="/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993900708" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/gmaps4rails/gmaps4rails.base.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/layouts/application.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="/application.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384050784409" ignored="false" />
@@ -72,42 +91,82 @@
     <file path="$USER_HOME$/plantner/app/views/layouts/_go_to_top.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384050773235" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/layouts/catalog.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/layouts/control.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/helpers/application_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/helpers/application_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986626057" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/pages_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/layouts/_header.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/config/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/users_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/members/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/assets/javascripts/filter.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/members/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987554486" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/assets/javascripts/filter.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993711417" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/filter.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/assets/stylesheets/bootstrap-chosen.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/assets/stylesheets/bootstrap-chosen.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992560830" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/helper.css.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/control/images_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/images/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/images/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993713672" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/users/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/profile_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/control/images/_images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/controllers/plants_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051450540" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/plants_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987089089" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/plants/_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384054359144" ignored="false" />
     <file path="$USER_HOME$/plantner/db/structure.sql" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051647728" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/collections/_collection_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="$USER_HOME$/plantner/app/models/user.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133935" ignored="false" />
     <file path="$USER_HOME$/plantner/Gemfile" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133935" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/shared/filters/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384056748052" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/plants/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051326707" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/models/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384057114859" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/filters/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986990169" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/plants/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993714796" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
     <file path="/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384057095607" ignored="false" />
     <file path="/_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384054350234" ignored="false" />
-    <file path="/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384055805681" ignored="false" />
+    <file path="/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986989196" ignored="false" />
     <file path="/sites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384195751925" ignored="false" />
-    <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384183452319" ignored="false" />
-    <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384235636424" ignored="false" />
+    <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993752954" ignored="false" />
+    <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386004233864" ignored="false" />
     <file path="/database.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188190831" ignored="false" />
-    <file path="/link_from_alex.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385980392739" ignored="false" />
+    <file path="/link_from_alex.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386001466722" ignored="false" />
     <file path="/.gitignore" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384235188749" ignored="false" />
     <file path="/application.html.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384236107802" ignored="false" />
     <file path="/sites.css.scss" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385984219319" ignored="false" />
-    <file path="/link_from_alex.css" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385985112770" ignored="false" />
+    <file path="/link_from_alex.css" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386003488721" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/image.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986103277" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/locales/en.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992769196" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_price.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/form.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/db/migrate/20131201080610_add_column_to_catalog.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/db/migrate/20131201085653_add_column_to_plant_price.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/assets/javascripts/catalogs.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_item.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/catalogs/_plant_items.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/db/migrate/20131201080313_create_forms.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="/application_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986621018" ignored="false" />
+    <file path="/*.regexp" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386004513489" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/genu.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986826194" ignored="false" />
+    <file path="/genu.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986818070" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/control/plants_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986935451" ignored="false" />
+    <file path="/plants_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987080648" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/filters/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987039835" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_category.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987095372" ignored="false" />
+    <file path="/plant_category.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987032107" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/catalogs/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992831680" ignored="false" />
+    <file path="/bootstrap-chosen.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385988143181" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/catalogs/new.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992686510" ignored="false" />
+    <file path="/new.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992623177" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/catalogs/edit.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992711502" ignored="false" />
+    <file path="/en.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992769196" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/members/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993752954" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/members/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993250786" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/members/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993786265" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/members/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993799553" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/members/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993584354" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/members/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993594793" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/users/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993715819" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/pages/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993717007" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/pages/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993718566" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/control/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993900708" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/assets/javascripts/address_dialog.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994641677" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/member_address.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994138887" ignored="false" />
+    <file path="/member_address.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994138015" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/members/_member_address_fields.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994659645" ignored="false" />
+    <file path="/address_dialog.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994398071" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,34 +189,7 @@
       <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/links/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.slim" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sites.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sites.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="178" selection-end="405" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="link_from_alex.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/link_from_alex.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="0.052447554">
+            <state line="10" column="18" selection-start="105" selection-end="105" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -166,7 +198,16 @@
       <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sites/index.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="34" selection-end="34" vertical-scroll-proportion="-1.25">
+            <state line="2" column="20" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link_from_alex.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/link_from_alex.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="46" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,7 +216,7 @@
       <file leaf-file-name="link_from_alex.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="47" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,28 +225,11 @@
       <file leaf-file-name="links.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+            <state line="45" column="0" selection-start="263" selection-end="1780" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1384235641245" expanded="true" signature="749:762" placeholder="..." />
+                <marker date="1386004383641" expanded="true" signature="709:722" placeholder="..." />
+                <marker date="1386004383641" expanded="true" signature="1357:1765" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="50" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -213,7 +237,43 @@
       <file leaf-file-name="links_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+            <state line="8" column="15" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.slim" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/links/edit.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/link.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="42" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="link_serializer.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/serializers/link_serializer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="62" selection-start="109" selection-end="109" vertical-scroll-proportion="0.026223777">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_serializer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializers/product_serializer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,22 +297,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/models/link.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/routing/mapper.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/sites/show.html.slim" />
-        <option value="$PROJECT_DIR$/public/link_from_alex.js" />
-        <option value="$PROJECT_DIR$/app/views/sites/index.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sites.css.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/sites/show.html.slim" />
         <option value="$PROJECT_DIR$/public/link_from_alex.css" />
+        <option value="$PROJECT_DIR$/public/link_from_alex.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/sites/index.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/links/index.html.slim" />
+        <option value="$PROJECT_DIR$/app/models/link.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/link_serializer.rb" />
       </list>
     </option>
   </component>
@@ -389,6 +449,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="links" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -409,6 +473,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="link_for_insales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="link_for_insales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -781,9 +863,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28053585" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.285264" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -792,7 +875,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -859,57 +941,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sites.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="2" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/link.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="164" selection-end="164" vertical-scroll-proportion="0.47202796" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/routing/mapper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="470" column="12" selection-start="16757" selection-end="16757" vertical-scroll-proportion="0.026833631">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="192" selection-end="192" vertical-scroll-proportion="0.026223777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="178" selection-end="405" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -921,46 +955,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1384235641245" expanded="true" signature="749:762" placeholder="..." />
-          </folding>
+        <state line="16" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
+    <entry file="file://$PROJECT_DIR$/app/views/sites/new.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sites/show.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="50" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sites/index.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="34" selection-end="34" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sites.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="178" selection-end="405" vertical-scroll-proportion="0.0">
+        <state line="51" column="47" selection-start="898" selection-end="898" vertical-scroll-proportion="-14.708333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/link_from_alex.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="0.052447554">
+        <state line="8" column="46" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/links.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="263" selection-end="1780" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1386004383641" expanded="true" signature="709:722" placeholder="..." />
+            <marker date="1386004383641" expanded="true" signature="1357:1765" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sites/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/links/edit.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/links/index.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="105" selection-end="105" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="15" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/product_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/link.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="42" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/link_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="62" selection-start="109" selection-end="109" vertical-scroll-proportion="0.026223777">
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@ table
     th Page url
     th Image url
     th Category
-    th Product urls
+    th Product url
     th Description
     th
     th
@@ -20,9 +20,7 @@ table
       td = link.page_url
       td = link.image_url
       td = link.category
-      td
-        - link.products.each do |product|
-          p= product.url
+      td = link.product_url
       td = link.description
       td = link_to 'Show', link
       td = link_to 'Edit', edit_link_path(link)
