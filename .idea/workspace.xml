@@ -4,24 +4,7 @@
     <list default="true" id="ccf0b872-d754-4dff-9a1c-2bf431c24982" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/links/index.html.slim" afterPath="$PROJECT_DIR$/app/views/links/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sites/index.html.slim" afterPath="$PROJECT_DIR$/app/views/sites/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/link.rb" afterPath="$PROJECT_DIR$/app/models/link.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/link_from_alex.css" afterPath="$PROJECT_DIR$/public/link_from_alex.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/link_from_alex.js" afterPath="$PROJECT_DIR$/public/link_from_alex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/serializers/link_serializer.rb" afterPath="$PROJECT_DIR$/app/serializers/link_serializer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/link_test.rb" afterPath="$PROJECT_DIR$/test/unit/link_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/links.yml" afterPath="$PROJECT_DIR$/test/fixtures/links.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/links_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/links_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="$PROJECT_DIR$/app/models/product.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/product_test.rb" afterPath="$PROJECT_DIR$/test/unit/product_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/products.yml" afterPath="$PROJECT_DIR$/test/fixtures/products.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sites/show.html.slim" afterPath="$PROJECT_DIR$/app/views/sites/show.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/site.rb" afterPath="$PROJECT_DIR$/app/models/site.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/site_test.rb" afterPath="$PROJECT_DIR$/test/unit/site_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/sites.yml" afterPath="$PROJECT_DIR$/test/fixtures/sites.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sites_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
     </list>
     <ignored path="link_for_insales.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,7 +101,7 @@
     <file path="/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384057095607" ignored="false" />
     <file path="/_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384054350234" ignored="false" />
     <file path="/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986989196" ignored="false" />
-    <file path="/sites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384195751925" ignored="false" />
+    <file path="/sites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386005275960" ignored="false" />
     <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993752954" ignored="false" />
     <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386004233864" ignored="false" />
     <file path="/database.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188190831" ignored="false" />
@@ -204,15 +187,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="link_from_alex.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/link_from_alex.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="46" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="link_from_alex.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/link_from_alex.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -261,10 +235,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="link_serializer.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="link_serializer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/serializers/link_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="62" selection-start="109" selection-end="109" vertical-scroll-proportion="0.026223777">
+            <state line="1" column="62" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sites_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="54" selection-start="412" selection-end="412" vertical-scroll-proportion="0.49825174">
               <folding />
             </state>
           </provider>
@@ -298,7 +281,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.14/lib/action_dispatch/routing/mapper.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -313,6 +295,7 @@
         <option value="$PROJECT_DIR$/app/views/links/index.html.slim" />
         <option value="$PROJECT_DIR$/app/models/link.rb" />
         <option value="$PROJECT_DIR$/app/serializers/link_serializer.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sites_controller.rb" />
       </list>
     </option>
   </component>
@@ -941,13 +924,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sites.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="178" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="50" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
@@ -1053,7 +1029,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/serializers/link_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="62" selection-start="109" selection-end="109" vertical-scroll-proportion="0.026223777">
+        <state line="1" column="62" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="54" selection-start="412" selection-end="412" vertical-scroll-proportion="0.49825174">
           <folding />
         </state>
       </provider>

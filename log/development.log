@@ -20986,3 +20986,173 @@ Processing by LinksController#index as JSON
   [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."url" IS NULL LIMIT 1[0m
   [1m[35mLink Load (0.3ms)[0m  SELECT "links".* FROM "links" 
 Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Processing by SitesController#index as HTML
+  [1m[36mSite Load (0.2ms)[0m  [1mSELECT "sites".* FROM "sites" [0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 2[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 3
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "links" WHERE "links"."site_id" = 4[0m
+  Rendered sites/index.html.slim within layouts/application (11.2ms)
+Compiled links.js  (106ms)  (pid 17913)
+Compiled application.js  (2ms)  (pid 17913)
+Completed 200 OK in 187ms (Views: 180.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /foundation_and_overrides.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /links.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /vendor/custom.modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /sites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /links.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:29 +0700
+Served asset /sites.js - 304 Not Modified (0ms)
+
+
+Started GET "/sites/new" for 127.0.0.1 at 2013-12-03 00:26:31 +0700
+Processing by SitesController#new as HTML
+  Rendered sites/_form.html.slim (32.0ms)
+  Rendered sites/new.html.slim within layouts/application (41.0ms)
+Completed 200 OK in 89ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:31 +0700
+Served asset /foundation_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:31 +0700
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:32 +0700
+Served asset /sites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-12-03 00:26:32 +0700
+Served asset /links.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:32 +0700
+Served asset /vendor/custom.modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:32 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:32 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:32 +0700
+Served asset /sites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-03 00:26:32 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/sites" for 127.0.0.1 at 2013-12-03 00:26:38 +0700
+Processing by SitesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4a3JV0J43XPnqNb4CSQmhaMrTXVbUd8MtCRUbSE5sE8=", "site"=>{"name"=>"йцу", "url"=>"йцу", "description"=>"уйц"}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "sites" ("created_at", "description", "name", "updated_at", "url") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 02 Dec 2013 17:26:38 UTC +00:00], ["description", "уйц"], ["name", "йцу"], ["updated_at", Mon, 02 Dec 2013 17:26:38 UTC +00:00], ["url", "йцу"]]
+  [1m[35m (251.4ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3001/sites/5
+Completed 302 Found in 258ms (ActiveRecord: 251.9ms)
+
+
+Started GET "/sites/5" for 127.0.0.1 at 2013-12-03 00:26:38 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mSite Load (0.3ms)[0m  [1mSELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1[0m  [["id", "5"]]
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::ConfigurationError (Association named 'products' was not found on Link; perhaps you misspelled it?):
+  app/controllers/sites_controller.rb:21:in `show'
+
+
+  Rendered /home/igor/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/igor/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/igor/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/sites/5" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Processing by SitesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mSite Load (0.1ms)[0m  SELECT "sites".* FROM "sites" WHERE "sites"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mLink Load (0.1ms)[0m  [1mSELECT "links".* FROM "links" WHERE "links"."site_id" = 5[0m
+  Rendered sites/show.html.slim within layouts/application (11.4ms)
+Completed 200 OK in 55ms (Views: 47.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /foundation_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /sites.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /links.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /vendor/custom.modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /links.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /sites.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-03 00:28:03 +0700
+Served asset /application.js - 304 Not Modified (29ms)

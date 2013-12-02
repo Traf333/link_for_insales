@@ -18,15 +18,11 @@ class SitesController < ApplicationController
   def show
     @site = Site.find(params[:id])
 
-    @links = if @site.links.joins(:products).where(products: {url: params[:product_url]}).present?
-               @site.links.joins(:products).where(products: {url: params[:product_url]})
-             else
-               @site.links
-             end
+    @links = @site.links
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render json: @links.shuffle.first(3), callback: params[:callback] }
+      format.json { render json: @site, callback: params[:callback] }
     end
   end
 
