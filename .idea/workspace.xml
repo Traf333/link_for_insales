@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccf0b872-d754-4dff-9a1c-2bf431c24982" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sites/index.html.slim" afterPath="$PROJECT_DIR$/app/views/sites/index.html.slim" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/link_from_alex.js" afterPath="$PROJECT_DIR$/public/link_from_alex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/links.js.coffee" />
-    </list>
+    <list default="true" id="ccf0b872-d754-4dff-9a1c-2bf431c24982" name="Default" comment="" />
     <ignored path="link_for_insales.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188082782" ignored="false" />
-    <file path="/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384233484434" ignored="false" />
+    <file path="/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386090296231" ignored="false" />
     <file path="/site.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383826055637" ignored="false" />
     <file path="/link.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384196023241" ignored="false" />
     <file path="/links_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386002719364" ignored="false" />
-    <file path="/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386005591138" ignored="false" />
-    <file path="/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993786265" ignored="false" />
-    <file path="/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993799239" ignored="false" />
-    <file path="/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386002768635" ignored="false" />
+    <file path="/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386149616350" ignored="false" />
+    <file path="/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386142692699" ignored="false" />
+    <file path="/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386142707329" ignored="false" />
+    <file path="/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232983758" ignored="false" />
     <file path="/application.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383829193163" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/root/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383901202637" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/plants/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/plants/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386136325329" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/favorites.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383973070686" ignored="false" />
     <file path="/favorites.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383921459152" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384184991552" ignored="false" />
@@ -31,79 +26,79 @@
     <file path="/a.dummy" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384001372753" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/control/plants.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051494948" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/application.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/users/images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383991904564" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/users/images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386062410713" ignored="false" />
+    <file path="/images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386062404811" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/users.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="/users.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383992113439" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/control/members/_address.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="/_address.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383992939494" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/profile/member.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/control/members.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1383992688639" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/shared/_profile_menu.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/_profile_menu.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384000692388" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/controllers/registrations_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384000816739" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/_profile_menu.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386136112353" ignored="false" />
+    <file path="/_profile_menu.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386136012329" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/registrations_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386096916544" ignored="false" />
     <file path="/registrations_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384000745181" ignored="false" />
     <file path="/ability.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384003394132" ignored="false" />
     <file path="$USER_HOME$/plantner/app/models/ability.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/users/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993720830" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/users/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386138622513" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/prettify.css" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384001578744" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/assets/stylesheets/application.css.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/assets/stylesheets/application.css.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386013275936" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/plants/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993719578" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/plants/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987038891" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/assets/stylesheets/favorites.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/favorites.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384003780989" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/shared/filters/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384005385686" ignored="false" />
-    <file path="$USER_HOME$/plantner/config/locales/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994794637" ignored="false" />
-    <file path="/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994794637" ignored="false" />
+    <file path="/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386134942954" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/assets/stylesheets/favorites.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386082714065" ignored="false" />
+    <file path="/favorites.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386082301832" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/filters/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386163902696" ignored="false" />
+    <file path="/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386147724891" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/locales/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232620029" ignored="false" />
+    <file path="/ru.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232015612" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/members/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/plant_items.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="/plant_items.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384004850707" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/models/member.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="/member.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384005163809" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/member.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230809711" ignored="false" />
+    <file path="/member.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230809045" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/members/index.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="/index.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384005271686" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/members/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/controllers/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986644545" ignored="false" />
-    <file path="/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993900708" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/assets/javascripts/gmaps4rails/gmaps4rails.base.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
+    <file path="/index.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386139645790" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/members/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386147739611" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386085279876" ignored="false" />
+    <file path="/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386135099959" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/assets/javascripts/gmaps4rails/gmaps4rails.base.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386164573181" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/layouts/application.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
     <file path="/application.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384050784409" ignored="false" />
     <file path="/application.css.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384050054997" ignored="false" />
     <file path="/application.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384050184389" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/layouts/_go_to_top.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384050773235" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/layouts/catalog.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/layouts/catalog.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386098206780" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/layouts/control.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/helpers/application_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986626057" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/helpers/application_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386079708660" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/pages_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/layouts/_header.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/config/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/controllers/users_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133931" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/members/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987554486" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/layouts/_header.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386140683878" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/routes.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386092356548" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/users_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386085086515" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/members/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386143397301" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/filter.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993711417" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/filter.css.sass" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/bootstrap-chosen.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992560830" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/stylesheets/helper.css.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/controllers/control/images_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/images/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993713672" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/control/images_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386139711441" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/images/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386063020646" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/users/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/controllers/profile_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/images/_images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386141046747" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/images/_images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386144312047" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/plants_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987089089" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/plants/_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384054359144" ignored="false" />
     <file path="$USER_HOME$/plantner/db/structure.sql" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051647728" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/collections/_collection_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133934" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/models/user.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133935" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/user.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386142932707" ignored="false" />
     <file path="$USER_HOME$/plantner/Gemfile" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384051133935" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/shared/filters/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986990169" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/filters/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230495361" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/control/plants/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993714796" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/models/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
-    <file path="/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384057095607" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386229760179" ignored="false" />
+    <file path="/plant.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386229760179" ignored="false" />
     <file path="/_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384054350234" ignored="false" />
-    <file path="/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986989196" ignored="false" />
+    <file path="/_filter.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230493585" ignored="false" />
     <file path="/sites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386005275960" ignored="false" />
-    <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993752954" ignored="false" />
+    <file path="/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232121886" ignored="false" />
     <file path="/links.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386005554072" ignored="false" />
     <file path="/database.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1384188190831" ignored="false" />
     <file path="/link_from_alex.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386001466722" ignored="false" />
@@ -112,45 +107,140 @@
     <file path="/sites.css.scss" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385984219319" ignored="false" />
     <file path="/link_from_alex.css" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386003488721" ignored="false" />
     <file path="$USER_HOME$/plantner/app/models/image.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986103277" ignored="false" />
-    <file path="$USER_HOME$/plantner/config/locales/en.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992769196" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/models/plant_price.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/locales/en.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232065673" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_price.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230840627" ignored="false" />
     <file path="$USER_HOME$/plantner/app/models/form.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
     <file path="$USER_HOME$/plantner/db/migrate/20131201080610_add_column_to_catalog.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
     <file path="$USER_HOME$/plantner/db/migrate/20131201085653_add_column_to_plant_price.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/catalogs.js.coffee" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/models/plant_item.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_item.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230298524" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/catalogs/_plant_items.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
     <file path="$USER_HOME$/plantner/db/migrate/20131201080313_create_forms.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986110888" ignored="false" />
-    <file path="/application_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986621018" ignored="false" />
-    <file path="/*.regexp" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386004513489" ignored="false" />
+    <file path="/application_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386079513137" ignored="false" />
+    <file path="/*.regexp" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230271803" ignored="false" />
     <file path="$USER_HOME$/plantner/app/models/genu.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986826194" ignored="false" />
     <file path="/genu.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986818070" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/control/plants_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385986935451" ignored="false" />
     <file path="/plants_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987080648" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/shared/filters/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987039835" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/models/plant_category.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987095372" ignored="false" />
-    <file path="/plant_category.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385987032107" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/filters/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099950794" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_category.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386140878066" ignored="false" />
+    <file path="/plant_category.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386140711571" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/catalogs/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992831680" ignored="false" />
     <file path="/bootstrap-chosen.less" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385988143181" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/catalogs/new.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992686510" ignored="false" />
     <file path="/new.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992623177" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/catalogs/edit.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992711502" ignored="false" />
-    <file path="/en.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385992769196" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/members/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993752954" ignored="false" />
+    <file path="/en.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232065673" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/members/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232122683" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/members/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993250786" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/members/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993786265" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/members/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386096784216" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/control/members/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993799553" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/members/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993584354" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/members/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993594793" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/users/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993715819" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/users/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386091348948" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/pages/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993717007" ignored="false" />
     <file path="$USER_HOME$/plantner/app/views/pages/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993718566" ignored="false" />
     <file path="$USER_HOME$/plantner/app/controllers/control/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385993900708" ignored="false" />
     <file path="$USER_HOME$/plantner/app/assets/javascripts/address_dialog.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994641677" ignored="false" />
     <file path="$USER_HOME$/plantner/app/models/member_address.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994138887" ignored="false" />
     <file path="/member_address.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994138015" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/control/members/_member_address_fields.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994659645" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/members/_member_address_fields.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386228596579" ignored="false" />
     <file path="/address_dialog.js" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1385994398071" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/role.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386059777649" ignored="false" />
+    <file path="/role.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386059777649" ignored="false" />
+    <file path="/users_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386148740231" ignored="false" />
+    <file path="/user.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386142785097" ignored="false" />
+    <file path="/_images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386132028438" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/users/images.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386080159378" ignored="false" />
+    <file path="/images.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386080032117" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/catalogs/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386083535210" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/collections/_item.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386083563505" ignored="false" />
+    <file path="/_item.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230338764" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/plant_categories/_category.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386083648209" ignored="false" />
+    <file path="/_category.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386083647701" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/plants/_gallery.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099481927" ignored="false" />
+    <file path="/_gallery.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099474869" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/users/_favorites.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386083833791" ignored="false" />
+    <file path="/_favorites.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386086391063" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/users_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386142565538" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/members_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386135556160" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/users/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386227710668" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/users/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386086118303" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/users/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386098542469" ignored="false" />
+    <file path="/change_password.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386091547259" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/users/change_password.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386091550069" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/users/_favorites.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386138612768" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/price_imports/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386164772655" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/catalogs_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386098253139" ignored="false" />
+    <file path="/catalogs_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386093183414" ignored="false" />
+    <file path="/collections_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386087497685" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/collections_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386100261637" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/favorites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386086600812" ignored="false" />
+    <file path="/favorites_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386086597910" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/plant_items_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230286727" ignored="false" />
+    <file path="/plant_items_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230281375" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/plant_prices_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386134889861" ignored="false" />
+    <file path="/plant_prices_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386134888492" ignored="false" />
+    <file path="/price_imports_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386088344096" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/price_imports_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386088348971" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/profile/images_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386132146869" ignored="false" />
+    <file path="/images_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386132142425" ignored="false" />
+    <file path="/_header.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386090537948" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/members/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386232984771" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/users/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386142899075" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/users/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386142707329" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/users/images.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386098549539" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/plant_items/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386098516724" ignored="false" />
+    <file path="/_attach_link.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386092586703" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/plant_items/_attach_link.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386092588435" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/show.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230401671" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/_price_fields.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230383217" ignored="false" />
+    <file path="/_price_fields.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230382593" ignored="false" />
+    <file path="/_plant_items.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230372747" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/_plant_items.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230373522" ignored="false" />
+    <file path="/_tab.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386092989113" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/_tab.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386093041249" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/_item.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230339689" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230316971" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/update.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386093254938" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/members/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386135380546" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/members/edit.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386135656039" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/devise/registrations/new.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386097054437" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/users/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386149687271" ignored="false" />
+    <file path="/catalog.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099078192" ignored="false" />
+    <file path="/profile_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386141045926" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/layouts/profile.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099082582" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/catalogs/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386098474245" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/collections/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386098493550" ignored="false" />
+    <file path="/profile.html.haml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099068408" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/collections/_collection_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099186001" ignored="false" />
+    <file path="/_collection_list.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099184083" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/collections/_item.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099417657" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/collections/_form.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099543589" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/links/_favorite.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099744649" ignored="false" />
+    <file path="/_favorite.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386099742393" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/images/index.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386135955163" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/plants/_members.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386134723229" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/members/_plants.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386134946517" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/control/images/index.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386139646351" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/helpers/plant_categories_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386140640025" ignored="false" />
+    <file path="/plant_categories_helper.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386140637474" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/plants/_subcategory.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386140989272" ignored="false" />
+    <file path="/_subcategory.html.slim" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386140986971" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/constants.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230236073" ignored="false" />
+    <file path="/constants.yml" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230236073" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/control/users_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386148774935" ignored="false" />
+    <file path="$USER_HOME$/plantner/lib/tasks/create_db.rake" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386143651617" ignored="false" />
+    <file path="/regions_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386150199826" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/control/regions_controller.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386150200182" ignored="false" />
+    <file path="/catalog.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230827955" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/catalog.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230828692" ignored="false" />
+    <file path="/plant_price.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230839991" ignored="false" />
+    <file path="$USER_HOME$/plantner/db/migrate/20131205074255_add_columns_to_members.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230108696" ignored="false" />
+    <file path="/20131205074255_add_columns_to_members.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230085531" ignored="false" />
+    <file path="/plant_item.rb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230298129" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/profile/plant_items/update.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230428151" ignored="false" />
+    <file path="/update.js.erb" changelist="ccf0b872-d754-4dff-9a1c-2bf431c24982" time="1386230426782" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +338,7 @@
       <file leaf-file-name="sites_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="54" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -950,7 +1040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="25" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1006,7 +1096,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sites_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="54" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
